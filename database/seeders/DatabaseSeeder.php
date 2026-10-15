@@ -45,7 +45,7 @@ class DatabaseSeeder extends Seeder
         User::create([
             'name' => 'Owner Eva Salon',
             'email' => 'owner@evasalon.test',
-            'password' => Hash::make('password'),
+            'password' => Hash::make('murahmeriah'),
             'role' => Role::Owner,
             'is_active' => true,
             'must_change_password' => false,
