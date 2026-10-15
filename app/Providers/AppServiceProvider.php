@@ -12,13 +12,14 @@ use App\Policies\OwnerPolicy;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\URL;
 
 class AppServiceProvider extends ServiceProvider
 {
     public function register(): void {}
 
     public function boot(): void
-    {
+    {        
         // Deteksi N+1 saat development (agent.md bagian 7).
         Model::preventLazyLoading($this->app->environment('local'));
 
