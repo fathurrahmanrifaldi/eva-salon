@@ -163,22 +163,6 @@ class DatabaseSeeder extends Seeder
             ['name' => 'Sari Handayani', 'gender' => 'female', 'position' => 'Terapis Spa'],
             ['name' => 'Dewi Anggraini', 'gender' => 'female', 'position' => 'Nail & Make Up Artist'],
             ['name' => 'Dimas Prasetyo', 'gender' => 'male', 'position' => 'Terapis Refleksi'],
-            ['name' => 'Tono Sucipto', 'gender' => 'male', 'position' => 'Terapis Refleksi & Bekam'],
-            ['name' => 'Maya Wulandari', 'gender' => 'female', 'position' => 'Terapis Tubuh & Wajah'],
-            ['name' => 'Indah Permata', 'gender' => 'female', 'position' => 'Nail Artist'],
-            ['name' => 'Putri Ayu', 'gender' => 'female', 'position' => 'Eyelash Specialist'],
-            ['name' => 'Ratna Sari', 'gender' => 'female', 'position' => 'Terapis Spa & Lulur'],
-            ['name' => 'Siti Nurhaliza', 'gender' => 'female', 'position' => 'Terapis Totok Wajah'],
-            ['name' => 'Dian Sastro', 'gender' => 'female', 'position' => 'Senior Kapster'],
-            ['name' => 'Tiara Andini', 'gender' => 'female', 'position' => 'Make Up Specialist'],
-            ['name' => 'Lisa Oktavia', 'gender' => 'female', 'position' => 'Terapis Spa'],
-            ['name' => 'Eka Fitriani', 'gender' => 'female', 'position' => 'Terapis Refleksi'],
-            ['name' => 'Nadia Utami', 'gender' => 'female', 'position' => 'Nail & Lash Artist'],
-            ['name' => 'Ayu Lestari', 'gender' => 'female', 'position' => 'Terapis Spa'],
-            ['name' => 'Wulan Guritno', 'gender' => 'female', 'position' => 'Terapis Tubuh'],
-            ['name' => 'Agus Priyono', 'gender' => 'male', 'position' => 'Terapis Refleksi'],
-            ['name' => 'Budi Santoso', 'gender' => 'male', 'position' => 'Terapis Refleksi'],
-            ['name' => 'Sinta Bella', 'gender' => 'female', 'position' => 'Terapis Kecantikan'],
         ];
 
         foreach ($staffNames as $idx => $s) {
