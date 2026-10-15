@@ -1,0 +1,85 @@
+@import 'tailwindcss';
+@import '@fontsource/cormorant-garamond/600.css';
+@import '@fontsource/cormorant-garamond/600-italic.css';
+@import '@fontsource-variable/plus-jakarta-sans';
+
+@theme {
+    --font-heading: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans Variable', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+    --color-sage-50: #F2F6F1;
+    --color-sage-100: #E2EBE0;
+    --color-sage-300: #A9BDA5;
+    --color-sage-500: #7E9A7B;
+    --color-sage-700: #4F6B52;
+    --color-sage-900: #2F4332;
+
+    --color-cream-50: #FBF8F2;
+    --color-cream-100: #F5F0E4;
+
+    --color-gold-400: #C9A45C;
+    --color-gold-700: #7A5C1E;
+
+    --color-marble-200: #DCDDDF;
+
+    --color-ink-600: #5B635D;
+    --color-ink-900: #262B27;
+
+    --color-wine-700: #7A2432;
+
+    --radius-arch: 9999px 9999px 1.25rem 1.25rem;
+    --shadow-soft: 0 6px 24px -8px rgba(47, 67, 50, 0.15);
+}
+
+/* Pola fluted (garis vertikal halus sesuai DESIGN.md bagian 2 & 5) */
+.bg-fluted {
+    background-image: repeating-linear-gradient(
+        90deg,
+        rgba(79, 107, 82, 0.05) 0px,
+        rgba(79, 107, 82, 0.05) 1px,
+        transparent 1px,
+        transparent 16px
+    );
+}
+
+/* Lengkungan arch khas Eva Salon */
+.rounded-arch {
+    border-radius: var(--radius-arch);
+}
+
+/* Badge status booking sesuai DESIGN.md bagian 3 */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    padding: 0.25rem 0.625rem;
+    border-radius: 9999px;
+    line-height: 1.25;
+}
+.badge-pending {
+    background-color: #F2C14E;
+    color: #5C4300;
+}
+.badge-confirmed {
+    background-color: #4F6B52;
+    color: #FFFFFF;
+}
+.badge-hold {
+    background-color: #8FA3B8;
+    color: #FFFFFF;
+    border: 1px dashed rgba(255, 255, 255, 0.8);
+}
+.badge-completed {
+    background-color: #9AA09B;
+    color: #FFFFFF;
+}
+.badge-cancelled {
+    background-color: #C0504D;
+    color: #FFFFFF;
+}
+.badge-no_show {
+    background-color: #7A2432;
+    color: #FFFFFF;
+}
