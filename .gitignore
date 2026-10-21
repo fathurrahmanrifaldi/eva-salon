@@ -1,4 +1,6 @@
 *.log
+/.agents
+/graphify-out
 .DS_Store
 .env
 .env.backup

@@ -52,7 +52,7 @@
         <div class="mt-6 pt-4 border-t border-marble-200 text-center text-xs text-ink-600">
             <p>Demo kredensial:</p>
             <p class="font-mono text-[11px] text-sage-900">kasir@evasalon.test / password</p>
-            <p class="font-mono text-[11px] text-sage-900 mt-1">owner@hash / idk</p>
+            <p class="font-mono text-[11px] text-sage-900 mt-1">owner@hash / all fitur</p>
         </div>
     </div>
 </body>
