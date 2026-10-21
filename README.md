@@ -1,4 +1,4 @@
-# 🌸 Eva Salon — Reservation & Salon Management System
+#  Eva Salon — Reservation & Salon Management System
 
 Sistem manajemen reservasi dan operasional salon kecantikan terpadu yang dirancang untuk satu cabang salon skala menengah (~20 staf). Sistem ini menyediakan antarmuka publik untuk reservasi pelanggan secara mandiri, dashboard operasional kasir untuk jadwal harian dan *walk-in*, serta panel manajemen *owner* untuk staf, layanan, dan konfigurasi salon.
 
@@ -10,7 +10,7 @@ Sistem manajemen reservasi dan operasional salon kecantikan terpadu yang diranca
 
 ---
 
-## 📸 Tangkapan Layar (Screenshots)
+##  Tangkapan Layar (Screenshots)
 
 Berikut adalah beberapa tampilan antarmuka utama dari Eva Salon:
 
@@ -31,7 +31,7 @@ Berikut adalah beberapa tampilan antarmuka utama dari Eva Salon:
 
 ---
 
-## 🗄️ Entity Relationship Diagram (ERD)
+##  Entity Relationship Diagram (ERD)
 
 Sistem menggunakan database relasional MySQL 8 dengan desain tanpa *cascade delete* (`restrictOnDelete`) dan pencatatan riwayat *append-only*.
 
@@ -233,7 +233,7 @@ erDiagram
 
 ---
 
-## ⭐ Fitur Utama
+##  Fitur Utama
 
 ### 1. Area Publik (Pelanggan)
 - **Katalog Layanan Transparan**: Menampilkan harga resmi, durasi pengerjaan, estimasi rentang harga (untuk *make up*, *eyelash*, dll.), serta filter kategori (*Terapi & Refleksi*, *Kuku & Rias Wajah*, *Perawatan Wajah & Tubuh*, dan *Paket Khusus*).
@@ -264,7 +264,7 @@ erDiagram
 
 ---
 
-## 🚀 Panduan Setup & Instalasi Lokal
+##  Panduan Setup & Instalasi Lokal
 
 ### Kebutuhan Sistem
 - **PHP**: Versi `^8.3` atau `^8.4` (disarankan 8.4) dengan ekstensi `pdo_mysql`, `gd`, `mbstring`, `fileinfo`, `openssl`.
@@ -328,7 +328,7 @@ erDiagram
 
 ---
 
-## 🔐 Kredensial Akun Default (Seeder)
+##  Kredensial Akun Default (Seeder)
 
 Setelah menjalankan `php artisan db:seed`, Anda dapat masuk menggunakan akun uji coba berikut:
 
@@ -339,7 +339,7 @@ Setelah menjalankan `php artisan db:seed`, Anda dapat masuk menggunakan akun uji
 
 ---
 
-## 🧠 Keputusan Teknis Penting
+##  Keputusan Teknis Penting
 
 Berikut adalah pertimbangan arsitektur dan keputusan rekayasa teknis yang diterapkan dalam aplikasi ini:
 
@@ -393,7 +393,7 @@ Berikut adalah pertimbangan arsitektur dan keputusan rekayasa teknis yang ditera
 
 ---
 
-## 🧪 Pengujian (Testing)
+##  Pengujian (Testing)
 
 Proyek ini dilengkapi dengan suite pengujian otomatis (Unit Test & Feature Test) untuk memvalidasi logika slot, pencegahan overlap, otorisasi Policy, dan transisi status booking:
 
@@ -407,6 +407,6 @@ php artisan test
 
 ---
 
-## 📄 Lisensi
+##  Lisensi
 
 Aplikasi ini dikembangkan untuk **Eva Salon** dan didistribusikan di bawah lisensi [MIT License](LICENSE).
